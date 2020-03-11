@@ -18,13 +18,13 @@ public class EmissorFiscalApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EmissorFiscalApplication.class, args);
 	}
-
-	@RestController
-	class HelloController {
-		@GetMapping("/")
-		String hello() {
-			return "Hello from App Engine";
-		}
-	}
+//
+//	@RestController
+//	class HelloController {
+//		@GetMapping("/")
+//		String hello() {
+//			return "Hello from App Engine";
+//		}
+//	}
 
 }
